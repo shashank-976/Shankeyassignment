@@ -1,0 +1,36 @@
+﻿@model ReservationSystem.Models.GuestModel
+@{
+    ViewBag.Title = "addGuest";
+}
+
+<h2>addGuest</h2>
+<form action="addGuest" method="post">
+
+    <label for="GuestName">GuestName</label>
+    <input type="text" id="GuestName" name="GuestName" required />
+    <br />
+    <br />
+    <label for="TableforPeople">TableforPeople</label>
+    <input type="text" id="TableforPeople" name="TableforPeople" required />
+    <br />
+    <br />
+    <label for="BillAmount">BillAmount</label>
+    <input type="text" id="BillAmount" name="BillAmount" required />
+    <br />
+    <br />
+    <label>ReservationId</label>
+    <select id="ReservationId" name="ReservationId">
+        @foreach (var item in ViewBag.reservation)
+        {
+            <option value="@item.ReservationId">@item.ReservationId</option>
+        }
+    </select>
+    <br />
+    <br />
+    <input type="submit" />
+
+
+
+
+</form>
+

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ReservationSystemModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Guest">
+    <Key>
+      <PropertyRef Name="GuestId" />
+    </Key>
+    <Property Name="GuestId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GuestName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TableforPeople" Type="Int32" />
+    <Property Name="BillAmount" Type="Int32" />
+    <Property Name="ReservationId" Type="Int32" />
+    <NavigationProperty Name="Reservation" Relationship="Self.FK__Guest__Reservati__15502E78" FromRole="Guest" ToRole="Reservation" />
+  </EntityType>
+  <EntityType Name="Reservation">
+    <Key>
+      <PropertyRef Name="ReservationId" />
+    </Key>
+    <Property Name="ReservationId" Type="Int32" Nullable="false" />
+    <Property Name="TotalSeats" Type="Int32" />
+    <Property Name="Status" Type="Int32" />
+    <NavigationProperty Name="Guests" Relationship="Self.FK__Guest__Reservati__15502E78" FromRole="Reservation" ToRole="Guest" />
+  </EntityType>
+  <Association Name="FK__Guest__Reservati__15502E78">
+    <End Role="Reservation" Type="Self.Reservation" Multiplicity="0..1" />
+    <End Role="Guest" Type="Self.Guest" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Reservation">
+        <PropertyRef Name="ReservationId" />
+      </Principal>
+      <Dependent Role="Guest">
+        <PropertyRef Name="ReservationId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ReservationSystemEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Guests" EntityType="Self.Guest" />
+    <EntitySet Name="Reservations" EntityType="Self.Reservation" />
+    <AssociationSet Name="FK__Guest__Reservati__15502E78" Association="Self.FK__Guest__Reservati__15502E78">
+      <End Role="Reservation" EntitySet="Reservations" />
+      <End Role="Guest" EntitySet="Guests" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

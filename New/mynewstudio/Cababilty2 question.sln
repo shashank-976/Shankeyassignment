@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cababilty2 question", "Cababilty2 question\Cababilty2 question.csproj", "{69A94F29-C795-422F-8624-36CAB5B069DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69A94F29-C795-422F-8624-36CAB5B069DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69A94F29-C795-422F-8624-36CAB5B069DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69A94F29-C795-422F-8624-36CAB5B069DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69A94F29-C795-422F-8624-36CAB5B069DA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BE9DB099-C76F-4E94-BD2B-478F5B22653F}
+	EndGlobalSection
+EndGlobal

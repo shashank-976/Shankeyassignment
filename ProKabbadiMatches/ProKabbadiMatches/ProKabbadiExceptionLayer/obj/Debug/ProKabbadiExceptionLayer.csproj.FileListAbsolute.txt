@@ -1,0 +1,6 @@
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiExceptionLayer\bin\Debug\ProKabbadiExceptionLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiExceptionLayer\bin\Debug\ProKabbadiExceptionLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiExceptionLayer\obj\Debug\ProKabbadiExceptionLayer.csprojAssemblyReference.cache
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiExceptionLayer\obj\Debug\ProKabbadiExceptionLayer.csproj.CoreCompileInputs.cache
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiExceptionLayer\obj\Debug\ProKabbadiExceptionLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiExceptionLayer\obj\Debug\ProKabbadiExceptionLayer.pdb

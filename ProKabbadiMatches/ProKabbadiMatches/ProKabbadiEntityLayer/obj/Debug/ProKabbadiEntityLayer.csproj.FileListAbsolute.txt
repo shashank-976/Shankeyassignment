@@ -1,0 +1,6 @@
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiEntityLayer\bin\Debug\ProKabbadiEntityLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiEntityLayer\bin\Debug\ProKabbadiEntityLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiEntityLayer\obj\Debug\ProKabbadiEntityLayer.csprojAssemblyReference.cache
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiEntityLayer\obj\Debug\ProKabbadiEntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiEntityLayer\obj\Debug\ProKabbadiEntityLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiEntityLayer\obj\Debug\ProKabbadiEntityLayer.pdb

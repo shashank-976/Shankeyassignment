@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "displayNames";
+}
+
+<h2>displayNames</h2>
+<form action="Index">
+
+    <table style="border:solid">
+        <thead>
+            <tr>
+                <td> GuestName </td>
+                <td> ReservationId </td>
+            </tr>
+        </thead>
+
+        @foreach (var Guest in ViewBag.guest2)
+        {
+            <tr>
+                <td>@Guest.GuestName</td>
+                <td>@Guest.ReservationId</td>
+
+            </tr>
+        }
+    </table>
+    <br />
+    <input type="submit" />
+</form>
+

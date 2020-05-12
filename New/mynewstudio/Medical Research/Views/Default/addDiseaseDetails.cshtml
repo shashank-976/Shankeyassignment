@@ -1,0 +1,55 @@
+﻿@model  Medical_Research.Models.DiseaseModel
+@{
+    ViewBag.Title = "addDiseaseDetails";
+}
+<h2>@TempData["result"]</h2>
+<script>
+    function validationForm(form) {
+        var name = document.getElementById("1").value;
+        if (name == null || name == "") {
+            document.getElementById("xyz").innerHTML = "Enter the disease";
+            return false;
+        }
+        return true;
+    }
+</script>
+<html>
+<body>
+
+<h2>addDiseaseDetails</h2>
+<form action="addDiseaseDetails" method="post" onsubmit="return validationForm(this.form)">
+    <label for=" 1"> Disease Name</label>
+    <input type="text" id="1" name="DiseaseName" /><br />
+    <span id="xyz"> </span>
+    <br />
+    <br />
+    <label>Severity</label>
+    <select id="Severity" name="DiseaseSeverity.SeverityId">
+        @foreach (var item in ViewBag.Severity)
+        {
+            <option value="@item.SeverityId">@item.SeverityName</option>
+        }
+    </select>
+    <br /><br />
+    <label>Cause</label>
+    <select id="Cause" name="DiseaseCause.CauseId">
+        @foreach (var item in ViewBag.Cause)
+        {
+            <option value="@item.CauseId">@item.CauseName</option>
+        }
+    </select>
+    <br />
+    <br />
+    <label for="DiseaseDescription">DiseaseDescription</label>
+    <input type="text" id="DiseaseDescription" name="DiseaseDescription" />
+    <br />
+    <br />
+    <input type="submit" value="Add Disease" onclick="location.href='@Url.Action("addDiseaseDetails","Default")'" />
+    <input type="button" value="cancel" onclick="location.href='@Url.Action("Index","Default")'" />
+
+
+</form>
+    </body>
+</html>
+
+

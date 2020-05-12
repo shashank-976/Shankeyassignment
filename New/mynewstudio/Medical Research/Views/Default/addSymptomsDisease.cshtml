@@ -1,0 +1,33 @@
+﻿@model Medical_Research.Models.DiseaseWithSymptomModel
+@{
+    ViewBag.Title = "addSymptomsDisease";
+}
+
+<h2>addSymptomsDisease</h2>
+<form action="addSymptomsDisease" method="post">
+
+    <label>DiseaseName</label>
+    <select id="DiseaseName" name="DsDisease.DiseaseId" required>
+        @foreach (var item in ViewBag.DiseaseName)
+        {
+            <option value="@item.DiseaseId">@item.DiseaseName</option>
+        }
+    </select>
+    <br /><br />
+    <label>SymptomName</label>
+    <select id="SymptomName" name="DsSymptom.SymptomId">
+        @foreach (var item in ViewBag.SymptomName)
+        {
+            <option value="@item.SymptomId">@item.SymptomName</option>
+        }
+    </select>
+    <br />
+    <br />
+    <label for="SymptomDescription">SymptomDescription</label>
+    <input type="text" id="SymptomDescription" name="SymptomDescription" required/>
+    <br />
+    <br />
+    <input type="submit" value="Add Symptom " onclick="location.href='@Url.Action("addSymptomsDisease","Default")'" />
+    <input type="button" value="cancel" onclick="location.href='@Url.Action("Index","Default")'" />
+</form>
+

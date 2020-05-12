@@ -1,0 +1,29 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2></h2>
+<html>
+<head>
+</head>
+<body>
+    <center>MEDICAL RESEARCH CENTER</center>
+    <br />
+    <br />
+    @Html.ActionLink("Add Disease Details", "addDiseaseDetails")<br /><br />
+    @*@<a href="addDiseaseDetails">Add Disease Details</a><br /><br />
+        //<a href="addSymptomsDisease">Add Symptoms to Disease</a><br /><br />
+        //<a href="checkPatient">Check Patient</a><br /><br />
+        //<br /><br />
+        <center>@TempData["message"]</center>
+
+    *@
+    @Html.ActionLink("Add Symptoms to Disease", "addSymptomsDisease")<br /><br />
+    @Html.ActionLink("Check Patient", "showdiagnoses")<br /><br />
+</body>
+
+
+</html>
+
+

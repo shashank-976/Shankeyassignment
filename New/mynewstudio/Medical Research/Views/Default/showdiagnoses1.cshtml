@@ -1,0 +1,62 @@
+﻿@model IEnumerable<Medical_Research.Models.DiseaseWithSymptomModel>
+@{
+    ViewBag.Title = "showdiagnoses1";
+}
+<h2>@TempData["result"]</h2>
+
+<h2>showdiagnoses1</h2>
+@*@<h3>RESULT OF PATIENT</h3>
+    <form action="showdiagnoses1" method="post"></form>
+    <table>
+        <tr>
+            <th>Disease Name</th>
+        </tr>
+        @foreach (var item2 in ViewBag.Diagnose)
+        {
+            <tr>
+                <td>@item2.DsDisease.DiseaseName</td>
+            </tr>
+        }
+        <tr>
+            <th>Severity</th>
+        </tr>
+        @foreach (var item2 in ViewBag.Diagnose)
+        {
+            <tr>
+                <td>@item2.DsDisease.DiseaseSeverity.SeverityName</td>
+            </tr>
+        }
+        <tr>
+            <th>Symptoms</th>
+        </tr>
+        @foreach (var item2 in ViewBag.Diagnose)
+        {
+            <tr>
+                <td>@item2.DsSymptom.SymptomName</td>
+            </tr>
+        }
+
+
+    </table>*@
+
+<h3>RESULT OF PATIENT</h3>
+<table class="table table-bordered table-striped">
+    <tr>
+        <th>Disease Name</th>
+        <th>Severity</th>
+        <th>Symptoms</th>
+
+
+    </tr>
+    @foreach (var item2 in ViewBag.Diagnose)
+    {
+        <tr>
+            <td>@item2.DsDisease.DiseaseName</td>
+            <td>@item2.DsDisease.DiseaseSeverity.SeverityName</td>
+            <td>@item2.DsSymptom.SymptomName</td>
+        </tr>
+    }
+</table>
+
+
+

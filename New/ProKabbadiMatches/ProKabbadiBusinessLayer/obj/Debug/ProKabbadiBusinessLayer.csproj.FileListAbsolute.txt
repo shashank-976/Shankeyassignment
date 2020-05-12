@@ -1,0 +1,13 @@
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\bin\Debug\ProKabbadiBusinessLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\bin\Debug\ProKabbadiBusinessLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\bin\Debug\ProKabbadiDataAccessLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\bin\Debug\ProKabbadiEntityLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\bin\Debug\ProKabbadiExceptionLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\bin\Debug\ProKabbadiDataAccessLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\bin\Debug\ProKabbadiEntityLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\bin\Debug\ProKabbadiExceptionLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\obj\Debug\ProKabbadiBusinessLayer.csprojAssemblyReference.cache
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\obj\Debug\ProKabbadiBusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\obj\Debug\ProKabbadiBusinessLayer.csproj.CopyComplete
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\obj\Debug\ProKabbadiBusinessLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiBusinessLayer\obj\Debug\ProKabbadiBusinessLayer.pdb

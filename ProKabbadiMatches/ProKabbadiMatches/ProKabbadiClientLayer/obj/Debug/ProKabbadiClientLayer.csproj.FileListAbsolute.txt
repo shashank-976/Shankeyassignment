@@ -1,0 +1,16 @@
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiClientLayer.exe.config
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiClientLayer.exe
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiClientLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiBusinessLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiEntityLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiExceptionLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiBusinessLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiEntityLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiExceptionLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\obj\Debug\ProKabbadiClientLayer.csprojAssemblyReference.cache
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\obj\Debug\ProKabbadiClientLayer.csproj.CoreCompileInputs.cache
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\obj\Debug\ProKabbadiClientLayer.csproj.CopyComplete
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\obj\Debug\ProKabbadiClientLayer.exe
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\obj\Debug\ProKabbadiClientLayer.pdb
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiDataAccessLayer.dll
+C:\Users\M1057674\source\repos\ProKabbadiMatches\ProKabbadiClientLayer\bin\Debug\ProKabbadiDataAccessLayer.pdb

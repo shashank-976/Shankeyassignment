@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Medical_Research.Models.DiseaseWithSymptomModel>
+@{
+    
+        ViewBag.Title = "showdiagnoses";
+    }
+<h2>@TempData["result"]</h2>
+
+    <h2>showdiagnoses</h2>
+
+    <form action="showdiagnoses" method="post">
+        <label for=" patientName"> Patient Name</label>
+        <input type="text" id="patientName" name="patientName" required /><br />
+        <br />
+        <br />
+        <label>Symptom First</label>
+        <select id="id1" name="id1" required>
+            @foreach (var item in ViewBag.Diagnose)
+            {
+                <option value="@item.SymptomId">@item.SymptomName</option>
+            }
+        </select>
+        <br /><br />
+        <label>Symptom Second</label>
+        <select id="id2" name="id2" required>
+            @foreach (var item in ViewBag.Diagnose)
+            {
+                <option value="@item.SymptomId">@item.SymptomName</option>
+            }
+        </select>
+        <br />
+        <br />
+        <input type="submit" value="Diagnose" onclick="location.href='@Url.Action("showdiagnoses","Default")'" />
+    </form>
